@@ -39,6 +39,12 @@
 			<artifactId>json</artifactId>
 			<version>20160212</version>
 		</dependency>
+		<dependency>
+			<groupId>org.sonarsource.scanner.maven</groupId>
+			<artifactId>sonar-maven-plugin</artifactId>
+			<version>3.7.0.1746</version>
+			<type>pom</type>
+		</dependency>
 		
 		<!-- test dependencies -->
 		<dependency>
