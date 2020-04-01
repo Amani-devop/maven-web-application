@@ -22,7 +22,6 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://35.154.54.45:9000//</sonar.host.url>
-		<sonar-maven-plugin.version>3.3.0.603</sonar-maven-plugin.version>
 		<sonar.login>9be3735a2ed79349e69d5f25c854b798399ae6c6</sonar.login>
 		<!--
 		<sonar.login>admin</sonar.login>
@@ -117,19 +116,11 @@
 		<finalName>maven-web-application</finalName>
 		
 		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.3</version>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
-			</plugin>
+	
                          <plugin>
 				<groupId>org.sonarsource.scanner.maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
-				<version>${sonar-maven-plugin.version}</version>
+				<version>3.3.0.603</version>
 			</plugin>
   
 			<plugin>
